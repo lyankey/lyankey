@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Honey Store</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <span class="nav-item"><a href="#">Honeylicious Recipes</a></span>
+                <span class="nav-item"><a href="#">Give Us a Buzz</a></span>
+                <span class="nav-item"><a href="#">Unbeelievable Facts</a></span>
+            </div>
+            <div>
+                <h2><span>Share the Buzz</span></h2>
+                <div class="text-center">
+                    <span class="menu-social"><a href="#"><img src="assets/facebook_20.png" alt="Facebook"
+                                class="socialIcon" /></a></span>
+                    <span class="menu-social"><a href="#"><img src="assets/twitter_20.png" alt="Twitter"
+                                class="socialIcon" /></a></span>
+                    <span class="menu-social"><a href="#"><img src="assets/google_plus_20.png" alt="Google Plus"
+                                class="socialIcon" /></a></span>
+                </div>
+            </div>
+            <div class="nav-right">
+                <span class="nav-item"><input type="search" id="search" placeholder="Search"></span>
+                <span class="nav-item"><a href="#"><img src="assets/purplecart.png" alt="shopping cart"
+                            class="cart" /></a></span>
+                <span class="nav-item"><a href="#" class="active">Login</a></span>
+            </div>
+        </nav>
+    </header>
+ 
+    <section id="main">
+
+    
+        <div class="page-container">
+
+         
+        <!--Sidebar Text-- Joke Generator-->
+
+
+        <section id="sidebar">
+
+            <body bgcolor="lightgreen"></body>
+            <h2>Bee Joke Generator</h2>
+            <div><span style="font-size:20px">
+                    <div id="jokeDisplay"></div>
+                    <button onclick="newJoke()">Get New Joke</button>
+                    <script scr="javascript.js">
+                        var jokes = ['How did the bumble bee lose an eye? With a beebee gun.', 'A wasp is nothing more than a wanna-bee.', 'Bee puns really sting', 'I’ve never seen a humming bird but I did see a spelling bee.',
+                            'What did the one bee say to the joking bee? Quit pollen my leg.',
+                            'How do student bees get to school? The school buzz',]
+
+                        function newJoke() {
+                            var randomNumber = Math.floor(Math.random() * (6));
+                            document.getElementById('jokeDisplay').innerHTML = jokes[randomNumber];
+                        }
+
+
+                    </script>
+                    <img src="assets/spoon.png" class="productType" alt="honey" />
+</body>
+</div>
+</section>
+<!-- Closing sidebar section tag -->
+
+
+<div class="beemascot">
+    <a href="#"><img src="assets/bee4.png" class="beemascot" alt="beemascot" /></a>
+</div>
+
+</div>
+<div class="menu-container">
+ 
+
+    <div class="panel" id="pic1">
+        <a href="#"><img src="assets/honeyjar.png" class="productType" alt="honey" /><a href="#"></a>
+
+    </div>
+    <div class="panel" id="pic2">
+        <a href="#"><img src="assets/rustichive.png" class="productType" alt="honey" /></a>
+
+    </div>
+    <div class="panel" id="pic3">
+        <a href="#"><img src="assets/commercialhives.png" class="productType" alt="honey" /></a>
+
+    </div>
+    <div class="panel" id="pic4">
+        <a href="#"><img src="assets/beekeeper.png" class="productType" alt="honey" /></a>
+
+    </div>
+    <div class="panel" id="pic5">
+        <a href="#"><img src="assets/candle.png" class="productType" alt="honey" /></a>
+
+    </div>
+    <div class="panel" id="pic6">
+        <a href="#"><img src="assets/honeycomb.png" class="productType" alt="cheese" /></a>
+
+    </div>
+    <div class="panel" id="pic7">
+        <a href="#"><img src="assets/nothoneybee.png" class="productType" alt="cheese" />
+    </div></a>
+</div>
+
+
+
+</section>
+
+
+
+<div class="clear"></div>
+
+
+<!--Start of Footer code-->
+
+<footer>
+    <!--Legal items, navigational items-->
+
+
+    </ul>
+    <span>&copy;2020</span>
+    <ul id="menuFooter">
+
+        <li><a href="#">Sitemap</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li>Website by Lisa</li>
+    </ul>
+</footer>
+
+</body>
+
+</html>
